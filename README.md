@@ -1,7 +1,3 @@
-Here’s an updated version of your **README** description with emojis to make it more engaging:
-
----
-
 Password Checker 🔒
 
 A simple password checker tool built with **HTML**, **CSS**, and **JavaScript**. This tool helps users evaluate the strength of their passwords based on various criteria, ensuring they create stronger passwords for better security. 🛡️
