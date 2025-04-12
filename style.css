@@ -1,0 +1,117 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    padding: 20px;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  /* Fade-in on load */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px aquamarine;
+    padding: 25px 30px;
+    max-width: 500px;
+    margin: auto;
+    perspective: 1000px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  /* 3D Tilt on hover */
+  .card:hover {
+    transform: rotateY(6deg) rotateX(3deg);
+    box-shadow: 0 20px 40px rgba(7, 162, 246, 0.2);
+  }
+  
+  .form-label {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  input[type="range"] {
+    accent-color: black;
+  }
+  
+  input[type="text"] {
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #fafafa;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+  input[type="text"]:hover {
+    border-color: #100253;
+    box-shadow: 0 0 8px rgba(16, 2, 83, 0.2);
+  }
+  
+  .btn.btn-danger {
+    background-color: #100253;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    transform: perspective(500px) translateZ(0);
+  }
+  
+  .btn.btn-danger:hover {
+    background-color: #100253;
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(16, 2, 83, 0.3);
+  }
+  
+  .btn-outline-light {
+    border: 2px solid #333;
+    color: #333;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-check-label {
+    font-size: 0.95rem;
+  }
+  
+  #length-value {
+    font-weight: 700;
+    color: #100253;
+  }
+  
+  .progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #eee;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  
+  /* Glowing effect on progress bar */
+  .progress-bar {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+    animation: glow 2s infinite ease-in-out;
+  }
+  
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 6px rgba(255, 59, 48, 0.4); }
+    50% { box-shadow: 0 0 12px rgba(255, 59, 48, 0.8); }
+  }
+  
