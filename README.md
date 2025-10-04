@@ -22,6 +22,5 @@ Technologies Used ⚙️
 - CSS: For styling and layout.
 - JavaScript: For the logic behind evaluating password strength in real-time.
 
-🌐 LIVE DEMO https://kalaiyarasi27.github.io/password_checker/
 
 Dreamt, designed, and developed 🚀 – KALAIYARASI N
